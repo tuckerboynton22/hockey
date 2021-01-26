@@ -2,12 +2,10 @@ library(tidyverse)
 library(gt)
 library(paletteer)
 
-options(scipen = 9999)
-
 # Fill in these variable names
 working_directory <- "/Users/tuckerboynton/Desktop/EH Postgames"
-filename <- "5.csv"
-filename_lagged <- "2.csv"
+filename <- "6.csv"
+filename_lagged <- "3.csv"
 
 # Read in relevant data
 setwd(working_directory)
